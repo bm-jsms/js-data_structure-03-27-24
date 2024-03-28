@@ -22,6 +22,20 @@ class MyArray {
 
 		return this.data;
 	}
+
+	pop() {
+		/* this.data[this.length - 1] = '';
+		this.length--;
+
+		return this.data; */
+
+		const lastItem = this.data[this.length - 1];
+
+		delete this.data[this.length - 1];
+		this.length--;
+
+		return lastItem;
+	}
 }
 
 const myArray = new MyArray();
@@ -33,3 +47,7 @@ myArray.push('Daniel');
 console.log(myArray);
 
 console.log(myArray.get(1));
+
+console.log(myArray);
+myArray.pop();
+console.log(myArray);

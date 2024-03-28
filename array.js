@@ -23,3 +23,5 @@ class MyArray {
 		return this.data;
 	}
 }
+
+const myArray = new MyArray();

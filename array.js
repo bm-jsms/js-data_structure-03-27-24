@@ -24,11 +24,6 @@ class MyArray {
 	}
 
 	pop() {
-		/* this.data[this.length - 1] = '';
-		this.length--;
-
-		return this.data; */
-
 		const lastItem = this.data[this.length - 1];
 
 		delete this.data[this.length - 1];

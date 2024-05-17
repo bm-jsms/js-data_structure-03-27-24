@@ -53,7 +53,7 @@ class MyArray {
 
 const myArray = new MyArray();
 
-myArray.push('Josué');
+myArray.push('Jhon Doe');
 console.log(myArray);
 
 myArray.push('Daniel');
